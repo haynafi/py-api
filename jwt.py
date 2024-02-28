@@ -49,8 +49,6 @@ def sso(username: Annotated[str, Form()], password: Annotated[str, Form()], Auth
     data = 'username='+username+'&password='+password+'&userAuth='+current_user
     return json.loads(data)
 
-        
-
 
 if __name__ == "__main__":
     import uvicorn
