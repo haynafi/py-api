@@ -54,4 +54,4 @@ def sso(username: Annotated[str, Form()], password: Annotated[str, Form()], Auth
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="10.62.164.188", port=8000)
+    uvicorn.run(app, host="localhost", port=8000)
